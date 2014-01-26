@@ -1,0 +1,17 @@
+h1 Posts#new
+
+= form_for :post, url: posts_path do |f|
+  p
+    = f.label :title
+    br
+    = f.text_field :title
+
+  p
+    = f.label :body
+    br
+    = f.text_area :body, :cols => 30, :rows => 10
+
+  p
+    = f.submit
+
+
