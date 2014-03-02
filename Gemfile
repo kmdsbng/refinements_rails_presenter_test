@@ -36,8 +36,10 @@ gem 'slim-rails'
 
 group :development, :test do
   gem 'pry'
+  gem 'rspec-rails'
 end
 
+gem 'sexy_presenter', path: "../sexy_presenter"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
