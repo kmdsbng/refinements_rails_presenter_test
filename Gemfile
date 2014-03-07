@@ -39,7 +39,7 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-gem 'sexy_presenter', path: "../sexy_presenter"
+gem 'sexy_presenter'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
